@@ -17,7 +17,7 @@ HDB features
 3. page size is 4*1024 byte in disk
 4. LRU pagecache
 
-now,the write speed is slowly,because when pagecache is full,page will be write to disk by fsync function
+now,the write speed is slowly,because when pagecache is full,page will be write to disk by call fsync function
 
 
 so,in order to improve HDB write speed,will add some features in below
